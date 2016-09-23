@@ -1,20 +1,20 @@
 print "Please enter your score : ";
 # get the input from the console, 
-score = gets;
+score = gets.chomp.to_i
 
-def getLetterGrade(score):
-    score = round(score)
-    if  score >= 90: return "A"
-    if  90 > score >= 80: return "B"
-    if  80 > score >= 70: return "C"
-    if  70 > score >= 60: return "D"
-    if  60 > score: return "F"
+
+
+    if  score >= 90
+         puts "Your Grade is a A"
+    elsif  score >= 80
+         puts "Your Grade is a B"
+    elsif  score >= 70
+         puts "Your Grade is a C"
+    elsif  score >= 60
+         puts "Your Grade is a D"
+    else   
+    	   puts "Your Grade is an F"
 
     end
 
-# convert the string console inputs to_i (to_integers) and add together
-print "Your Grade is: " , (getLetterGrade), "\n";
 
-end
-
-puts getLetterGrade
