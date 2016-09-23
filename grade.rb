@@ -3,8 +3,9 @@ print "Please enter your score : ";
 score = gets.chomp.to_i
 
 
-
-    if  score >= 90
+    if   score >= 101
+    	    print "Wrong Answer!"
+    elsif  score >= 90
          puts "Your Grade is a A"
     elsif  score >= 80
          puts "Your Grade is a B"
